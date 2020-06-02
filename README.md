@@ -45,38 +45,46 @@ OpenMP
 
 Soft Shadows and Colour Bleeding Caustics
 
+<img src="images/softshadows.png"  style="width: 10px;" />
+
+
 #### Russian Roulette path termination ​✔
 
-# ● Tone Mapping ​✔
+#### Tone Mapping ​✔
 
-# ● Event splitting ​✔
+#### Event splitting ​✔
 
-Only Direct Lighting [640 x 640] [400 Samples] Full Global Illumination [640 x 640] [2000 Samples]
-
+<img src="images/event_split.png"  style="width: 10px;" />
 
 ## Extra Features
 
-# ● Attenuate refracted paths ​ ​✔
+#### Attenuate refracted paths ​ ​✔
 
-```
-Reference : ​https://www.scratchapixel.com/lessons/3d-basic-rendering/global-illumination-path-tracing
-```
-# ● Importance Sampling ​✔
+<img src="images/attenuation.png"  style="width: 10px;" />
 
-Uniform Sampling [640 x 640] [2000 Samples] Importance Sampling [640 x 640] [2000 Samples]
+Reference : https://www.scratchapixel.com/lessons/3d-basic-rendering/global-illumination-path-tracing
+
+#### Importance Sampling ​✔
+
+<img src="images/importance.png"  style="width: 10px;" />
+
 With importance sampling, the path tracer converges within 2000 samples per pixel, while the naive uniform sampling
 technique still produces noise for the same samples per pixel.
-Reference: ​https://www.tobias-franke.eu/log/2014/03/30/notes_on_importance_sampling.html
+
+Reference: https://www.tobias-franke.eu/log/2014/03/30/notes_on_importance_sampling.html
 
 
-# ● Depth of field ​✔
+#### Depth of field ​✔
 
-```
-Normal Depth of Field applied
-Implemented in function ​ depthOfField() ​ in​ pathtracer.cpp
-```
+<img src="images/dof1.png"  style="width: 10px;" />
+<img src="images/dof2.png"  style="width: 10px;" />
 
-## Other Scenes ​ [Refer to ​ ​ final_results ​ directory for higher resolution]
+
+## Other Scenes
+
+<img src="images/water.png"  style="width: 10px;" />
+<img src="images/boat.png"  style="width: 10px;" />
+
 
 ## Usage
 
@@ -104,9 +112,5 @@ Set the following arguments in Qt Creator.
 - Using CLI :
 ```./path-stencil ../Path_Tracer_2240/example-scenes/CornellBox-Sphere.xml ./output.png 100 256 256```
 
-
-### Bloopers
-
-### ​I have no idea what happened here. Accidentally modified the diffuse material.
 
 
