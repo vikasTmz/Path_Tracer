@@ -23,29 +23,29 @@ OpenMP
 
 **Diffuse [640 x 640] [2000 Samples]**
 
-<img src="images/diffuse_global.png"  style="width: 10px;" />
+<img src="images/diffuse_global.png"  style="width: 500px;" />
 
 
 **Mirror [640 x 640] [2000 Samples]**
 
-<img src="images/mirror_global.png"  style="width: 10px;" />
+<img src="images/mirror_global.png"  style="width: 500px;" />
 
 
 **Glossy [640 x 640] [3000 Samples]**
 
-<img src="images/glossy_global.png"  style="width: 10px;" />
+<img src="images/glossy_global.png"  style="width: 500px;" />
 
  
  **Refraction [640 x 640] [1500 Samples]**
  
-<img src="images/refraction.png"  style="width: 10px;" />
+<img src="images/refraction.png"  style="width: 500px;" />
 
 
 #### Soft Shadows and Indirect Illumination ​✔
 
 Soft Shadows and Colour Bleeding Caustics
 
-<img src="images/softshadows.png"  style="width: 10px;" />
+<img src="images/softshadows.png"  style="width: 500px;" />
 
 
 #### Russian Roulette path termination ​✔
@@ -54,19 +54,19 @@ Soft Shadows and Colour Bleeding Caustics
 
 #### Event splitting ​✔
 
-<img src="images/event_split.png"  style="width: 10px;" />
+<img src="images/event_split.png"  style="width: 500px;" />
 
 ## Extra Features
 
 #### Attenuate refracted paths ​ ​✔
 
-<img src="images/attenuation.png"  style="width: 10px;" />
+<img src="images/attenuation.png"  style="width: 500px;" />
 
 Reference : https://www.scratchapixel.com/lessons/3d-basic-rendering/global-illumination-path-tracing
 
 #### Importance Sampling ​✔
 
-<img src="images/importance.png"  style="width: 10px;" />
+<img src="images/importance.png"  style="width: 500px;" />
 
 With importance sampling, the path tracer converges within 2000 samples per pixel, while the naive uniform sampling
 technique still produces noise for the same samples per pixel.
@@ -76,14 +76,14 @@ Reference: https://www.tobias-franke.eu/log/2014/03/30/notes_on_importance_sampl
 
 #### Depth of field ​✔
 
-<img src="images/dof1.png"  style="width: 10px;" />
-<img src="images/dof2.png"  style="width: 10px;" />
+<img src="images/dof1.png"  style="width: 500px;" />
+<img src="images/dof2.png"  style="width: 500px;" />
 
 
 ## Other Scenes
 
-<img src="images/water.png"  style="width: 10px;" />
-<img src="images/boat.png"  style="width: 10px;" />
+<img src="images/water.png"  style="width: 500px;" />
+<img src="images/boat.png"  style="width: 500px;" />
 
 
 ## Usage
